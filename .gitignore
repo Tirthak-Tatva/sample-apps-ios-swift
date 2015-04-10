@@ -1,2 +1,5 @@
 BitriseSwiftSampleApp.xcodeproj/xcuserdata
 BitriseSwiftSampleApp.xcodeproj/project.xcworkspace/xcuserdata
+Pods
+*.xcworkspace
+Podfile.lock
