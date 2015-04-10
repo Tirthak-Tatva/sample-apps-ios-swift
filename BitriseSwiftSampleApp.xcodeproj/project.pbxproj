@@ -15,6 +15,7 @@
 		BA18348E1A04F2300023210E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA18348D1A04F2300023210E /* Images.xcassets */; };
 		BA1834911A04F2300023210E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA18348F1A04F2300023210E /* LaunchScreen.xib */; };
 		BA18349D1A04F2310023210E /* BitriseSwiftSampleAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA18349C1A04F2310023210E /* BitriseSwiftSampleAppTests.swift */; };
+		DDDDB38D1AD8573E00F0859D /* SampleKIFTest.m in Sources */ = {isa = PBXBuildFile; fileRef = DDDDB38C1AD8573E00F0859D /* SampleKIFTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 		BA1834961A04F2310023210E /* BitriseSwiftSampleAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BitriseSwiftSampleAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA18349B1A04F2310023210E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA18349C1A04F2310023210E /* BitriseSwiftSampleAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitriseSwiftSampleAppTests.swift; sourceTree = "<group>"; };
+		DDDDB38C1AD8573E00F0859D /* SampleKIFTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleKIFTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +128,7 @@
 			isa = PBXGroup;
 			children = (
 				BA18349C1A04F2310023210E /* BitriseSwiftSampleAppTests.swift */,
+				DDDDB38C1AD8573E00F0859D /* SampleKIFTest.m */,
 				BA18349A1A04F2310023210E /* Supporting Files */,
 			);
 			path = BitriseSwiftSampleAppTests;
@@ -300,6 +303,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDDDB38D1AD8573E00F0859D /* SampleKIFTest.m in Sources */,
 				BA18349D1A04F2310023210E /* BitriseSwiftSampleAppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -440,6 +444,7 @@
 			baseConfigurationReference = 848281F82D531C8F59B58CA8 /* Pods-BitriseSwiftSampleAppTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -451,6 +456,7 @@
 				INFOPLIST_FILE = BitriseSwiftSampleAppTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BitriseSwiftSampleApp.app/BitriseSwiftSampleApp";
 			};
 			name = Debug;
@@ -460,6 +466,7 @@
 			baseConfigurationReference = 7123AE5841F35C30D4F0DAC4 /* Pods-BitriseSwiftSampleAppTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",

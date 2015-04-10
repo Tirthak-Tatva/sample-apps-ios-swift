@@ -27,6 +27,7 @@
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Wt-E4-Twc">
                                 <rect key="frame" x="276" y="380" width="51" height="30"/>
+                                <accessibility key="accessibilityConfiguration" label="The test"/>
                                 <state key="normal" title="Tap Me">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
