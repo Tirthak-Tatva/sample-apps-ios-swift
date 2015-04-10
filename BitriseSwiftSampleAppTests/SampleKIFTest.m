@@ -13,4 +13,8 @@
     [tester tapViewWithAccessibilityLabel:@"OK"];
 }
 
+- (void)testFail {
+    [tester fail];
+}
+
 @end
