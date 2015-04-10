@@ -15,6 +15,13 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
     }
 
+    @IBAction func tapButton() {
+        UIAlertView(title: "Tapped!",
+            message: "You tapped the button.",
+            delegate: nil,
+            cancelButtonTitle: "OK").show()
+    }
+
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
